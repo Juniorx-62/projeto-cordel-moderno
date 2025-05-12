@@ -10,7 +10,8 @@
     --fonte3: "Sriracha", cursive;
 }
 
-* {font-family: var(--fonte1);
+* {
+    font-family: var(--fonte1);
     margin: 0px;
     padding: 0px;
 }
@@ -52,14 +53,12 @@ section {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 2em;
+    font-size: 3.5vw;
 }
 
 section p {
     font-family: var(--fonte3);
-    font-size: 1.2em;
     padding: 5px 5px 2em 5px;
-    
 }
 
 section.normal {
@@ -72,22 +71,23 @@ section.imagem {
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.445);
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
 }
 
 section.imagem p {
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.5);
-    width: 400px;
     text-shadow: 2px 2px 0px black;
 }
 
 section#img01 {
     background-image:url(../imagens/background001.jpg);
-    background-position: right center;
 }
 
 section#img02 {
     background-image:url(../imagens/background002.jpg);
-    background-position: right center;
+   
 }    
 
 @media only screen and (max-width: 1000px) {
@@ -96,7 +96,7 @@ section#img02 {
     }
 
     section p {
-        font-size: 1em;
+        font-size: 1.4em;
     }
 }
 
@@ -105,8 +105,8 @@ section#img02 {
         font-size: 2em;
     }
 
-    section {
-        font-size: 1em;
+    section p {
+        font-size: 1.4em;
     }
 }
 
@@ -115,9 +115,14 @@ section#img02 {
         font-size: 1.5em;
     }
     
-    section {
-        font-size: 0.9em;
+    section p {
+        font-size: 0.7em;
     }
+
+    section.imagem p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 200px; }
 }
 
 footer {
