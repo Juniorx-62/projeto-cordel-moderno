@@ -89,15 +89,25 @@ section#img01 {
 section#img02 {
     background-image:url(../imagens/background002.jpg);
    
-}    
+}  
 
-/* @media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     section h1 {
         font-size: 3em;
     }
 
     section p {
-        font-size: 1.4em;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    section h1 {
+        font-size: 3em;
+    }
+
+    section p {
+        font-size: 1.2em;
     }
 }
 
@@ -111,20 +121,16 @@ section#img02 {
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
     section h1 {
         font-size: 1.5em;
     }
     
     section p {
-        font-size: 0.7em;
+        font-size: 1.4em;
     }
 
-    section.imagem p {
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 200px; }
-} */
+}
 
 footer {
     background-color: black;
