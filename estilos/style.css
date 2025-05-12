@@ -17,8 +17,9 @@
 }
 
 html, body {
-    min-width: 100vw;  /* ou 100% */
+    min-width: 100vw;
     background-color: darkgrey;
+    overflow-x: hidden;
 }
 
 header {
